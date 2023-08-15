@@ -1,0 +1,296 @@
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f0f0;
+}
+
+
+header {
+  width: 100%;
+  min-height: 100vh;
+  background: url('images/background 2.jpg') center/cover no-repeat;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  height: 60px; 
+  background: rgba(255, 255, 255, 0.3); 
+  backdrop-filter: blur(10px); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  margin-left: 20px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #6ab04c;
+  border-radius: 8px;
+}
+
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.left {
+  flex-basis: 60%;
+}
+
+.right {
+  flex-basis: 40%;
+}
+
+.left h2 {
+  font-size: 2rem;
+  color: #6ab04c;
+}
+
+.left h1 {
+  font-family: 'Kalam', cursive;
+  font-size: 4.5em;
+  margin-top: 10px;
+}
+
+.left p {
+  line-height: 1.8;
+  margin-top: 20px;
+}
+
+#hire, #myp {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+#hire {
+  background-color: #6ab04c;
+}
+
+#myp {
+  border: 1px dashed black;
+}
+
+.right img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+.menu i {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.menu i.fa-moon-o {
+  margin-right: 15px; 
+}
+
+#bio {
+  cursor: pointer;
+  padding: 20px; 
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  font-family: 'Poppins', sans-serif;
+}
+
+.leftbio {
+  flex-basis: 40%; 
+  padding-right: 2px; 
+}
+
+.leftbio img {
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 8px;
+}
+
+.rightbio {
+  flex-basis: 60%; 
+  text-align: left; 
+}
+
+.rightbio p {
+  margin: 2px 0; 
+  line-height: 1.5rem;
+}
+
+.rightbio h1 {
+  font-size: 1.5rem; 
+}
+
+.info{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+#follow{
+  text-align: center;
+}
+#follow i{
+  color: #6ab04c;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+
+.link-h{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#CV{
+  text-decoration: none;
+  color: black;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  margin: 0 1rem;
+  border: 1px dashed grey;
+}
+
+#Services {
+  padding: 50px 0; 
+  background-color: #f5f5f5; 
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.cardbody {
+  flex-basis: 300px; 
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 15px; 
+  text-align: center;
+}
+
+.cardbody i {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.cardbody h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.cardbody p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+#Contact {
+  background-color: #f5f5f5; 
+  padding: 50px 0; 
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0;
+}
+#Footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-content p {
+  font-size: 1rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
